@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(122, 121, 121);
+    text-align: center;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.table {
+    height: 55px;
+    width: 500px;
+    padding: 200px;
+    margin: 30px;
+    border: 3px solid rgb(200, 200, 200);
+    background-color: none;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, -5%);
+}
+.board {
+    height: 55px;
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid rgb(255, 0, 0);
+    background-color: none;
+    position: absolute;
+    left: 70%;
+    bottom: 5%;
+    transform: translate(-73.5%, -85%);
+}
